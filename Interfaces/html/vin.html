@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Page vins de We All Are Winos</title>
+    <meta name="description" content="Site e_commerce de We All Are Winos">
+    <link rel="stylesheet" href="../css/grille.css">
+    <link rel="stylesheet" href="../css/vin.css">
+    <link rel="stylesheet" href="../css/ft/css/all.css">
+</head>
+    <header class="fullwidth">
+        <div>
+            <div>
+                <img src="../images_videos/logo.png" alt="logo">
+            </div>
+            <!-- apparait uniquement au format mobile quand le  nav est ouvert -->
+            <div id="shadow"></div>
+            <nav>
+                <i class="fas fa-bars menu" id="icon"></i>
+                <!-- avec js quand on clique sur l'icon on remet un width 200px sur le nav -->
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./vins.html" class="dessus">Vins</a></li>
+                    <li><a href="../pages/coffrets.html">Coffrets</a></li>
+                    <li><a href="../pages/compte.html">Compte</a></li>
+                    <li><a href="../pages/connexion.html">Se connecter</a></li>
+                    <li><a href="../pages/panier.html">Panier</a></li>
+                    <div>
+                        <input type="search" id="site-search" name="q"
+                            aria-label="Search through site content">
+                        <i class="fas fa-search loop"></i>
+                    </div>
+                </ul>
+                
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="tri">
+            <div class="row_m col-12">
+                    <p class="row_filter">Trier par:</p>
+                    <select id="trier" role="categorie" class="form-control row_filter" required>
+                        <option disabled selected value>Catégorie</option>
+                        <option value="Vin rouge">Vin rouge</option>
+                        <option value="Vin blanc">Vin blanc</option>
+                        <option value="Champagne">Champagne</option>
+                    </select>
+                    <select id="trier" role="prix" class="form-control row_filter" required>
+                        <option disabled selected value>Prix</option>
+                        <option value="Vin rouge">Prix croissant</option>
+                        <option value="Vin blanc">Prix décroissant</option>
+                    </select>
+            </div>
+        </div>
+        <div class="wine">
+            <div class="row">
+                <div class="col-md-6 col-12 row_a">
+                    <h2>2019 Chardonnay, Vallée de la Rivière Russe </h2>
+                    <p>Une composition de cinq vignobles distincts, notre plus récent millésime apporte une jeune couleur paille pâle et des fleurs d'agrumes parfumées et des fleurs blanches. Des saveurs vives de pomme Golden Delicious et de pêche fraîche émergent en bouche qui laissent place à des notes complexes de meringue au citron et d'épices à pâtisserie. Raffinée et concentrée, la finale est longue et relevée, encadrée par une minéralité fraîche et une acidité rafraîchissante.</p>
+                </div>
+                <div class="col-md-2 col-12 row_a">
+                    <img role="presentation" alt="" src="../images_videos/2019_chardonnay.png" class="bottle-image">
+                </div>
+                <div class="col-md-4 col-12 row_a">
+                    <strong>55.00€ - 750 mL</strong><br>
+                    <form>
+                        <div class="form-group">
+                            <label class="form-control-label" for="qty">Quantité</label>
+                            <select name="QTYORD" aria-label="Quantity" class="form-control center_element" id="qty" required="">
+                            <option selected="selected"> 1 </option>
+                            <option> 2 </option>
+                            <option> 3 </option>
+                            <option> 4 </option>
+                            <option> 5 </option>
+                            <option> 6 </option>
+                            <option> 7 </option>
+                            <option> 8 </option>
+                            <option> 9 </option>
+                            <option> 10 </option>
+                            <option> 11 </option>
+                            <option> 12 </option>
+                            <option> 13 </option>
+                            <option> 14 </option>
+                            <option> 15 </option>
+                            <option> 16 </option>
+                            <option> 17 </option>
+                            <option> 18 </option>
+                            <option> 19 </option>
+                            <option> 20 </option>
+                            <option> 21 </option>
+                            <option> 22 </option>
+                            <option> 23 </option>
+                            <option> 24 </option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-control-label" for="shipto">Envoyé à</label>
+                            <select name="SHIP2" aria-label="Select Ship to" class="form-control center_element" id="shipto" required="">
+                            <option selected="selected"> Moi-même </option>
+                            <option> Quelqu'un d'autre</option>
+                            </select>
+                        </div>
+                        <button type="submit">Ajouter au panier</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+        <div class="wine">
+            <div class="row">
+            <div class="col-md-6 col-12 row_a">
+                <h2>2019 Pinot Noir, Vallée de la Rivière Russe</h2>
+                <p>Nos domaines jouent un rôle de premier plan dans l'élaboration de ce vin aux fruits sélectionnés dans toute l'appellation pour sa pureté, sa richesse et son élégance. Grenat translucide, le millésime 2019 séduit par ses notes d'orange sanguine, de mûre de Boysen et de violette fraîche. La texture voluptueuse fusionne avec des notes étagées de bergamote, de cerise sauvage, de graines de grenade écrasées et de notes de sauge. Au fur et à mesure qu'il traverse la bouche, les tanins acides et moelleux sont parfaitement intégrés, accentués par une minéralité d'argile rouge qui capture facilement notre terroir et ajoute de la fraîcheur à la magnifique finale.</p>
+            </div>
+            <div class="col-md-2 col-12 row_a"> <img role="presentation" alt="" src="../images_videos/2019_pinot_noir.png" class="bottle-image"> </div>
+            <div class="col-md-4 col-12 row_a"> 
+                <strong>65.00€ — 750 mL</strong><br>          
+                <form>
+                    <div class="form-group">
+                        <label class="form-control-label" for="qty">Quantité</label>
+                        <select name="QTYORD" aria-label="Quantity" class="form-control center_element" id="qty" required="">
+                        <option selected="selected"> 1 </option>
+                        <option> 2 </option>
+                        <option> 3 </option>
+                        <option> 4 </option>
+                        <option> 5 </option>
+                        <option> 6 </option>
+                        <option> 7 </option>
+                        <option> 8 </option>
+                        <option> 9 </option>
+                        <option> 10 </option>
+                        <option> 11 </option>
+                        <option> 12 </option>
+                        <option> 13 </option>
+                        <option> 14 </option>
+                        <option> 15 </option>
+                        <option> 16 </option>
+                        <option> 17 </option>
+                        <option> 18 </option>
+                        <option> 19 </option>
+                        <option> 20 </option>
+                        <option> 21 </option>
+                        <option> 22 </option>
+                        <option> 23 </option>
+                        <option> 24 </option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-control-label" for="shipto">Envoyé à</label>
+                        <select name="SHIP2" aria-label="Select Ship to" class="form-control center_element" id="shipto" required="">
+                        <option selected="selected"> Moi-même </option>
+                        <option> Quelqu'un d'autre</option>
+                        </select>
+                    </div>
+                    <button type="submit">Ajouter au panier</button>
+                    </form>         
+            </div>
+            </div>
+        </div>
+        <div class="wine">
+            <div class="row">
+            <div class="col-md-6 col-12 row_a">
+                <h2>2018 Cabernet Sauvignon, Coombsville Napa Valley </h2>
+                <p>Nous sommes fiers de porter l'appellation Coombsville sur notre étiquette après être devenus un pilier de notre approvisionnement en cabernet dans la Napa Valley. La version inaugurale présente un rubis profond avec des reflets violets et des parfums de myrtille sauvage, de lavande séchée et de moka. Une belle entrée enveloppe le palais et présente de généreuses couches de groseille rouge, de figue noire et de subtiles notes de sauge fraîche et de cuir. L'acidité fraîche enveloppe des tanins à grain fin offrant une tension vers la finale, révélant une minéralité de roche concassée qui confère aux régions des sols rocheux inhérents.</p>
+            </div>
+            <div class="col-md-2 col-12 row_a"> <img role="presentation" alt="" src="../images_videos/2018_cabernet.png" class="bottle-image"> </div>
+            <div class="col-md-4 col-12 row_a">
+                <strong>120.00€ — 750 mL</strong><br>          
+                <form>
+                    <div class="form-group">
+                        <label class="form-control-label" for="qty">Quantité</label>
+                        <select name="QTYORD" aria-label="Quantity" class="form-control center_element" id="qty" required="">
+                        <option selected="selected"> 1 </option>
+                        <option> 2 </option>
+                        <option> 3 </option>
+                        <option> 4 </option>
+                        <option> 5 </option>
+                        <option> 6 </option>
+                        <option> 7 </option>
+                        <option> 8 </option>
+                        <option> 9 </option>
+                        <option> 10 </option>
+                        <option> 11 </option>
+                        <option> 12 </option>
+                        <option> 13 </option>
+                        <option> 14 </option>
+                        <option> 15 </option>
+                        <option> 16 </option>
+                        <option> 17 </option>
+                        <option> 18 </option>
+                        <option> 19 </option>
+                        <option> 20 </option>
+                        <option> 21 </option>
+                        <option> 22 </option>
+                        <option> 23 </option>
+                        <option> 24 </option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-control-label" for="shipto">Envoyé à</label>
+                        <select name="SHIP2" aria-label="Select Ship to" class="form-control center_element" id="shipto" required="">
+                        <option selected="selected"> Moi-même </option>
+                        <option> Quelqu'un d'autre</option>
+                        </select>
+                    </div>
+                    <button type="submit">Ajouter au panier</button>
+                    </form>         
+            </div>
+            </div>
+        </div>
+    </div>
+        <footer class="fullwidth">
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="../pages/blog.html">Blog</a></li>
+                <li><a href="../pages/aide.html">Aide</a></li>
+            </ul>
+      </footer>
+ 
+    </div>
+    <script src="../js/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,223 @@
+* { 
+     /*border: 1px solid black;
+     min-height: 50px;
+     background: rgba(0,0,0, .2);*/
+     box-sizing: border-box;
+ }
+ html, body {
+     margin: 0;
+     padding: 0;
+ }
+ .fullwidth {
+     width: 100%;
+     padding: 0 15px;
+ }
+ .container {
+     max-width: 1200px;
+     margin: auto;
+     padding: 0 15px;
+ }
+ .row {
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: -15px;
+     margin-right: -15px;
+ }
+ /* mobile first */
+ .col-12 {
+     width: 100%;
+     padding: 0 15px;
+ }
+ .col-11 {
+     width: calc(100% / 12 * 11);
+     padding: 0 15px;
+ }
+ .col-10 {
+     width: calc(100% / 12 * 10);
+     padding: 0 15px;
+ }
+ .col-9 {
+     width: calc(100% / 12 * 9);
+     padding: 0 15px;
+ }
+ .col-8 {
+     width: calc(100% / 12 * 8);
+     padding: 0 15px;
+ }
+ .col-7 {
+     width: calc(100% / 12 * 7);
+     padding: 0 15px;
+ }
+ .col-6 {
+     width: calc(100% / 12 * 6);
+     padding: 0 15px;
+ }
+ .col-5 {
+     width: calc(100% / 12 * 5);
+     padding: 0 15px;
+ }
+ .col-4 {
+     width: calc(100% / 12 * 4);
+     padding: 0 15px;
+ }
+ .col-3 {
+     width: calc(100% / 12 * 3);
+     padding: 0 15px;
+ }
+ .col-2 {
+     width: calc(100% / 12 * 2);
+     padding: 0 15px;
+ }
+ .col-1 {
+     width: calc(100% / 12);
+     padding: 0 15px;
+ }
+ @media (min-width: 768px) {
+     .col-md-12 {
+         width: 100%;
+         position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-md-11 {
+         width: calc(100% / 12 * 11);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-md-10 {
+         width: calc(100% / 12 * 10);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-md-9 {
+         width: calc(100% / 12 * 9);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-md-8 {
+         width: calc(100% / 12 * 8);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-md-7 {
+         width: calc(100% / 12 * 7);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-md-6 {
+         width: calc(100% / 12 * 6);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-md-5 {
+         width: calc(100% / 12 * 5);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-md-4 {
+         width: calc(100% / 12 * 4);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-md-3 {
+         width: calc(100% / 12 * 3);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-md-2 {
+         width: calc(100% / 12 * 2);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-md-1 {
+         width: calc(100% / 12);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+ }
+ @media (min-width: 1200px) {
+     .col-xl-12 {
+         width: 100%;
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-xl-11 {
+         width: calc(100% / 12 * 11);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-xl-10 {
+         width: calc(100% / 12 * 10);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-xl-9 {
+         width: calc(100% / 12 * 9);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-xl-8 {
+         width: calc(100% / 12 * 8);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-xl-7 {
+         width: calc(100% / 12 * 7);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-xl-6 {
+         width: calc(100% / 12 * 6);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-xl-5 {
+         width: calc(100% / 12 * 5);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-xl-4 {
+         width: calc(100% / 12 * 4);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-xl-3 {
+         width: calc(100% / 12 * 3);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-xl-2 {
+         width: calc(100% / 12 * 2);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+     .col-xl-1 {
+         width: calc(100% / 12);
+         min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+     }
+}
